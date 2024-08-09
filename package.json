@@ -1,0 +1,36 @@
+{
+    "name": "aim-robotics-svelte-client",
+    "private": true,
+    "version": "2.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "format": "concurrently --names \"prettier,remove_classes\" --prefix name \"prettier --write .\" \"node src/preprocess/remove_classes.js\""
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.14",
+        "concurrently": "^8.2.2",
+        "dotenv": "^16.4.5",
+        "glob": "^10.4.1",
+        "path": "^0.12.7",
+        "postcss": "^8.4.24",
+        "prettier": "^3.2.5",
+        "prettier-plugin-svelte": "^3.2.3"
+    },
+    "dependencies": {
+        "@sveltejs/vite-plugin-svelte": "^3.0.2",
+        "@zerodevx/svelte-toast": "^0.9.5",
+        "apexcharts": "^3.49.1",
+        "firebase": "^10.12.0",
+        "flowbite": "^1.6.5",
+        "gsap": "^3.12.5",
+        "hubspot": "^2.3.14",
+        "mapbox-gl": "^3.4.0",
+        "svelte": "^4.2.12",
+        "svelte-routing": "^2.13.0",
+        "tailwindcss": "^3.3.2",
+        "vite": "^5.1.6"
+    }
+}

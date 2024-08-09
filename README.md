@@ -1,0 +1,24 @@
+# Aim Robotics Svelte Client
+
+## v2.0.0
+
+-   kj@aim-robotics.com
+-   Kasper Scott Jensen
+-   Aim Robotics ApS
+
+## Environmental Variables
+
+VITE_SERVER = "http://localhost:3000"
+VITE_SERVER_PORT = 3000
+
+VITE_SECRET_KEY = "71uZMKA4DXeAXOxg1qdiCTl8Z8LGOJKi01nCKCkuHSW9NhSR3BFD4LkR4Ie3QSXzLHBbJ78PmqGIEDKUuDtUkoZGDPI2yPJYKkUwnErVElyDWrrQjwL9DLqAagLaaEce"
+
+VITE_MAPBOX_API_KEY = "pk.eyJ1IjoiYWltLXJvYm90aWNzIiwiYSI6ImNsbW9zaGNqbDE5YncyaXRiZW1xN2k4MDQifQ.\_mg8w9UfhSrFeVoAq8N3dA"
+
+VITE_FIREBASE_API_KEY = "AIzaSyAB4FcRO_UwanBAnXB0Ux35NWOz7LIfhqU"
+VITE_FIREBASE_AUTH_DOMAIN = "aimrobotics-main.firebaseapp.com"
+VITE_FIREBASE_PROJECT_ID = "aimrobotics-main"
+VITE_FIREBASE_STORAGE_BUCKET = "aimrobotics-main.appspot.com"
+VITE_FIREBASE_MESSAGING_SENDER_ID = "60063932647"
+VITE_FIREBASE_APP_ID = "1:60063932647:web:057ff4db704ea191c7c242"
+VITE_FIREBASE_MEASUREMENT_ID = "G-744Z0Q63YB"

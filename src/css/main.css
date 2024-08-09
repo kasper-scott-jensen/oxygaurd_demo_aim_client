@@ -1,0 +1,12 @@
+*:not(i) {
+    font-family: Arial, Helvetica, sans-serif !important;
+    caret-color: transparent !important;
+}
+
+*:focus {
+    box-shadow: none !important;
+}
+
+.caret {
+    caret-color: initial !important;
+}
